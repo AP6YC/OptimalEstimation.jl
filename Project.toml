@@ -2,3 +2,8 @@ name = "OptimalEstimation"
 uuid = "b4b06e15-aec3-475a-bd5d-4eaf7ad224b9"
 authors = ["Sasha Petrenko <sap625@umsystem.edu>"]
 version = "0.1.0"
+
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
