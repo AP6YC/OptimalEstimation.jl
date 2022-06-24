@@ -1,0 +1,4 @@
+name = "OptimalEstimation"
+uuid = "b4b06e15-aec3-475a-bd5d-4eaf7ad224b9"
+authors = ["Sasha Petrenko <sap625@umsystem.edu>"]
+version = "0.1.0"
