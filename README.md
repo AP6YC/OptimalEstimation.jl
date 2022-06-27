@@ -83,7 +83,6 @@ OptimalEstimation
 │   └─── src                //      Documentation source files.
 ├── src                     // Source: majority of source code.
 ├── test                    // Test: Unit, integration, and environment tests.
-├── .appveyor               // Appveyor: Windows-specific coverage.
 ├── .gitignore              // Git: .gitignore for the whole project.
 ├── LICENSE                 // Doc: the license to the project.
 ├── Project.toml            // Julia: the Pkg.jl dependencies of the project.
@@ -100,6 +99,11 @@ OptimalEstimation
 
 This package is developed and maintained by [Sasha Petrenko](https://github.com/AP6YC) with sponsorship by the [Applied Computational Intelligence Laboratory (ACIL)](https://acil.mst.edu/). This project is supported by grants from the [Night Vision Electronic Sensors Directorate](https://c5isr.ccdc.army.mil/inside_c5isr_center/nvesd/), the [DARPA Lifelong Learning Machines (L2M) program](https://www.darpa.mil/program/lifelong-learning-machines), [Teledyne Technologies](http://www.teledyne.com/), and the [National Science Foundation](https://www.nsf.gov/).
 The material, findings, and conclusions here do not necessarily reflect the views of these entities.
+
+### Inspiration
+
+- https://github.com/sisl/GaussianFilters.jl
+- https://github.com/JuliaGNSS/KalmanFilters.jl
 
 ## License
 

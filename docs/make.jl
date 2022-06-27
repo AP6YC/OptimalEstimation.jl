@@ -1,10 +1,10 @@
 using Documenter
 using OptimalEstimation
-using DemoCards
+# using DemoCards
 
 # Generate the demo files
 # this is the relative path to docs/
-demopage, postprocess_cb, demo_assets = makedemos("examples")
+# demopage, postprocess_cb, demo_assets = makedemos("examples")
 
 assets = [
     joinpath("assets", "favicon.ico")
