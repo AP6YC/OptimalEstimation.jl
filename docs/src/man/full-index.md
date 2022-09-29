@@ -9,7 +9,7 @@ ART modules document their internal working parameters and references, while the
 ## [Methods](@id index-methods)
 
 ```@index
-Modules = [AdaptiveResonance]
+Modules = [OptimalEstimation]
 Order = [:function]
 Public = true
 ```
@@ -17,7 +17,7 @@ Public = true
 ## [Types](@id index-types)
 
 ```@index
-Modules = [AdaptiveResonance]
+Modules = [OptimalEstimation]
 Order = [:type]
 Public = true
 ```
@@ -25,31 +25,6 @@ Public = true
 ## [Docs](@id index-docs)
 
 ```@docs
-AdaptiveResonance
-train!
-AdaptiveResonance.classify
-data_setup!
-performance
-complement_code
-get_data_characteristics
-linear_normalization
-get_data_shape
-get_n_samples
-DDVFA
-DVFA
-FuzzyART
-DAM
-FAM
-SFAM
-opts_DDVFA
-opts_DVFA
-opts_FuzzyART
-opts_DAM
-opts_FAM
-opts_SFAM
-DataConfig
-ARTModule
-ART
-ARTMAP
-ARTOpts
+OptimalEstimation
+greet
 ```
