@@ -85,15 +85,11 @@ The `OptimalEstimation.jl` package has the following file structure:
 ```console
 OptimalEstimation
 ├── .github/workflows       // GitHub: workflows for testing and documentation.
-├── data                    // Data: CI data location.
 ├── docs                    // Docs: documentation for the module.
 │   └───src                 //      Documentation source files.
 ├── examples                // Source: example usage scripts.
 ├── src                     // Source: majority of source code.
-│   ├───ART                 //      ART-based unsupervised modules.
-│   └───ARTMAP              //      ARTMAP-based supervised modules.
 ├── test                    // Test: Unit, integration, and environment tests.
-├── .appveyor               // Appveyor: Windows-specific coverage.
 ├── .gitignore              // Git: .gitignore for the whole project.
 ├── LICENSE                 // Doc: the license to the project.
 ├── Project.toml            // Julia: the Pkg.jl dependencies of the project.
