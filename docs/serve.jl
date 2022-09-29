@@ -1,3 +1,9 @@
+"""
+    serve.jl
+
+Convenience script to make and serve the documentation simultaneously.
+"""
+
 using LiveServer
 
 # Make the documentation

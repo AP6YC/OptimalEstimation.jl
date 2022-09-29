@@ -60,7 +60,7 @@ julia> ]
 
 ## GitFlow
 
-As of verson `0.3.7`, the `OptimalEstimation.jl` package follows the [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/) git working model.
+The `OptimalEstimation.jl` package follows the [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/) git working model.
 The [original post](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen outlines this methodology quite well, while [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) has a good tutorial as well.
 In summary:
 
@@ -94,36 +94,14 @@ OptimalEstimation
 ├── LICENSE                 // Doc: the license to the project.
 ├── Project.toml            // Julia: the Pkg.jl dependencies of the project.
 └── README.md               // Doc: this document.
-```
-<!--
-ART and ARTMAP algorithms are put into their own files within the `src/ART/` and `src/ARTMAP/` directories, respectively.
-Both of these directories have an "index" file where each module is "included" (i.e., `src/ART/ART.jl`), which is in turn "included" in the package module file `src/OptimalEstimation.jl`.
 
-Abstract types and common structures/methods are included at the top of the package module file.
-All public methods and structs (i.e., for the end user) are "exported" at the end of this file.
+### Optimal Estimation Module Workflow
 
-### ART Module Workflow
-
-To write an ART module for this project, it will require the following:
-
-1. A `train!` and `classify` method (within the module).
-2. An keyword-options struct using the `Parameters.jl` macro `@with_kw` with assertions to keep the parameters within correct ranges.
-3. Three constructors:
-   1. A default constructor (i.e. `DDVFA()`).
-   2. A keyword argument constructor (passing the kwargs to the options struct defined above).
-   3. A constructor with the options struct passed itself.
-4. Use of [common type aliases](@ref Type-Aliases) in method definitions.
-5. An internal [`DataConfig`](@ref incremental_vs_batch) for setting up the data configuration, especially with `data_setup!` (`src/common.jl`).
-6. An `update_iter` evaluation for each iteration (`src/common.jl`).
-7. Inclusion to the correct ART index file (i.e., `src/ART/ART.jl`).
-8. Exports of the names for the options and module constructors in the module definition (`src/OptimalEstimation.jl`).
+TODO
 
 #### DataConfig
 
-The original implementation of ART1 uses binary vectors, which have guaranteed separation between distinct vectors.
-Real-valued ART modules, however, face the problem of permitting vectors to be arbitrarily close to one another.
-Therefore, nearly every real-valued ART module uses [0, 1] normalization and complement-coding.
-This is reflected in the `DataConfig` struct in the common file `src/common.jl`. -->
+TODO
 
 #### Type Aliases
 
@@ -148,10 +126,10 @@ const IntegerMatrix{T<:Integer} = AbstractArray{T, 2}
 const RealFP = Union{Float32, Float64}
 ```
 
-In this package, data samples are always `Real`-valued (with the notable exception of [ART1](@ref incremental_vs_batch)), while class labels are integered.
+In this package, data samples are always `Real`-valued while class labels are integered.
 Furthermore, independent class labels are always `Int` because of the [Julia native support](https://docs.julialang.org/en/v1/manual/integers-and-floating-point-numbers/#Integers) for a given system's signed native integer type.
 
-This project does not currently test for the support of [arbitrary precision arithmetic](https://docs.julialang.org/en/v1/manual/integers-and-floating-point-numbers/#Arbitrary-Precision-Arithmetic) because learning algorithms *in general* do not have a significant need for precision beyond even 32-bit floats.
+This project does not yet test for the support of [arbitrary precision arithmetic](https://docs.julialang.org/en/v1/manual/integers-and-floating-point-numbers/#Arbitrary-Precision-Arithmetic).
 
 ## Authors
 
