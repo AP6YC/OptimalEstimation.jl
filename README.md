@@ -17,6 +17,7 @@ Please read the [documentation](https://ap6yc.github.io/OptimalEstimation.jl/dev
   - [History](#history)
   - [Acknowledgements](#acknowledgements)
     - [Authors](#authors)
+    - [Related Projects](#related-projects)
   - [License](#license)
 
 ## Overview
@@ -92,6 +93,7 @@ OptimalEstimation
 ## History
 
 - 6/24/2022 - Begin project.
+- 9/29/2022 - Submit to JuliaHub
 
 ## Acknowledgements
 
@@ -100,7 +102,9 @@ OptimalEstimation
 This package is developed and maintained by [Sasha Petrenko](https://github.com/AP6YC) with sponsorship by the [Applied Computational Intelligence Laboratory (ACIL)](https://acil.mst.edu/). This project is supported by grants from the [Night Vision Electronic Sensors Directorate](https://c5isr.ccdc.army.mil/inside_c5isr_center/nvesd/), the [DARPA Lifelong Learning Machines (L2M) program](https://www.darpa.mil/program/lifelong-learning-machines), [Teledyne Technologies](http://www.teledyne.com/), and the [National Science Foundation](https://www.nsf.gov/).
 The material, findings, and conclusions here do not necessarily reflect the views of these entities.
 
-### Inspiration
+### Related Projects
+
+If this package does not suit your needs in some way, below is a list of related projects implementing filters of various kinds:
 
 - https://github.com/sisl/GaussianFilters.jl
 - https://github.com/JuliaGNSS/KalmanFilters.jl
