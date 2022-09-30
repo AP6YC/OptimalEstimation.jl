@@ -4,6 +4,46 @@ A Julia package for optimal estimation algorithms.
 
 Please read the [documentation](https://ap6yc.github.io/OptimalEstimation.jl/dev/) for detailed usage and tutorials.
 
+| **Stable Docs**  | **Dev Docs** | **Testing Status** | **Coverage** |
+|:----------------:|:------------:|:----------------:|:------------:|
+| [![Stable][docs-stable-img]][docs-stable-url] | [![Dev][docs-dev-img]][docs-dev-url]| [![Build Status][ci-img]][ci-url] | [![Codecov][codecov-img]][codecov-url] |
+| **Docs Build** | **JuliaHub Status** | **Dependents** | **Release** |
+| [![Documentation][doc-status-img]][doc-status-url] | [![pkgeval][pkgeval-img]][pkgeval-url] | [![deps][deps-img]][deps-url] | [![version][version-img]][version-url] |
+
+| **Zenodo DOI** |
+| :------------: |
+| [![DOI][zenodo-img]][zenodo-url] |
+
+[zenodo-img]: https://zenodo.org/badge/DOI/10.5281/zenodo.5748453.svg
+[zenodo-url]: https://doi.org/10.5281/zenodo.5748453
+
+[doc-status-img]: https://github.com/AP6YC/OptimalEstimation.jl/actions/workflows/Documentation.yml/badge.svg
+[doc-status-url]: https://github.com/AP6YC/OptimalEstimation.jl/actions/workflows/Documentation.yml
+
+[deps-img]: https://juliahub.com/docs/OptimalEstimation/deps.svg
+[deps-url]: https://juliahub.com/ui/Packages/OptimalEstimation/Sm0We?t=2
+
+[version-img]: https://juliahub.com/docs/OptimalEstimation/version.svg
+[version-url]: https://juliahub.com/ui/Packages/OptimalEstimation/Sm0We
+
+[pkgeval-img]: https://juliahub.com/docs/OptimalEstimation/pkgeval.svg
+[pkgeval-url]: https://juliahub.com/ui/Packages/OptimalEstimation/Sm0We
+
+[docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[docs-stable-url]: https://AP6YC.github.io/OptimalEstimation.jl/stable
+
+[docs-dev-img]: https://img.shields.io/badge/docs-dev-blue.svg
+[docs-dev-url]: https://AP6YC.github.io/OptimalEstimation.jl/dev
+
+[ci-img]: https://github.com/AP6YC/OptimalEstimation.jl/workflows/CI/badge.svg
+[ci-url]: https://github.com/AP6YC/OptimalEstimation.jl/actions?query=workflow%3ACI
+
+[codecov-img]: https://codecov.io/gh/AP6YC/OptimalEstimation.jl/branch/main/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/AP6YC/OptimalEstimation.jl
+
+[issues-url]: https://github.com/AP6YC/OptimalEstimation.jl/issues
+[contrib-url]: https://ap6yc.github.io/OptimalEstimation.jl/dev/man/contributing/
+
 ## Contents
 
 - [OptimalEstimation.jl](#optimalestimationjl)
