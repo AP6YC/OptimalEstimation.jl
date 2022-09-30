@@ -20,20 +20,15 @@ using DocStringExtensions   # Docstring utilities
 # INCLUDES
 # --------------------------------------------------------------------------- #
 
+include("common.jl")
 include("modules/modules.jl")
 
 # --------------------------------------------------------------------------- #
-# METHODS
+# EXPORTS
 # --------------------------------------------------------------------------- #
 
-
-"""
-    greet()
-
-Prints a boilerplate hello world for the package.
-"""
-greet() = print("Hello World!")
-
-export greet
+export
+    greet,
+    Filter
 
 end # module
