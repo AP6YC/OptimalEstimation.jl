@@ -1,7 +1,3 @@
-![header](assets/header.png)
-
----
-
 # OptimalEstimation.jl
 
 These pages serve as the official documentation for the OptimalEstimation.jl Julia package.
@@ -26,8 +22,8 @@ Pages = [
 Depth = 1
 ```
 
-The [Background](@ref) provides an overview of the problem statement of CVIs and what they are theoretically, while [Basic Example](@ref) steps through an single example workflow.
+The [Background](@ref) provides an overview of the problem statement of optimal state estimation.
 
-The [Package Guide](@ref) provides a tutorial to the full usage of the package, while [Examples](@ref examples) gives many sample workflows using a variety of CVI modules.
+The [Package Guide](@ref) provides a tutorial to the full usage of the package, while [Examples](@ref examples) gives many sample workflows using a variety of optimal estimation filters and algorithms.
 
 Instructions on how to contribute to the package are found in [Contributing](@ref), and docstrings for every element of the package is listed in the [Index](@ref main-index).

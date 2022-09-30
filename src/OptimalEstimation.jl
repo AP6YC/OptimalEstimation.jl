@@ -13,7 +13,9 @@ module OptimalEstimation
 using DocStringExtensions   # Docstring utilities
 
 """
+    greet()
 
+Prints a boilerplate hello world for the package.
 """
 greet() = print("Hello World!")
 

@@ -7,10 +7,9 @@ using OptimalEstimation
 # this is the relative path to docs/
 # demopage, postprocess_cb, demo_assets = makedemos("examples")
 
-
-assets = [
-    joinpath("assets", "favicon.ico")
-]
+# assets = [
+#     joinpath("assets", "favicon.ico")
+# ]
 
 # if there are generated css assets, pass it to Documenter.HTML
 # isnothing(demo_assets) || (push!(assets, demo_assets))
@@ -20,7 +19,7 @@ makedocs(
     modules=[OptimalEstimation],
     format=Documenter.HTML(
         prettyurls = get(ENV, "CI", nothing) == "true",
-        assets = assets,
+        # assets = assets,
     ),
     # format=Documenter.HTML(),
     pages=[
