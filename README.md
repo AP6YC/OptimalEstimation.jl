@@ -148,6 +148,8 @@ If this package does not suit your needs in some way, below is a list of related
 
 - https://github.com/sisl/GaussianFilters.jl
 - https://github.com/JuliaGNSS/KalmanFilters.jl
+- https://github.com/mschauer/Kalman.jl
+- https://github.com/mschauer/GaussianDistributions.jl
 
 ## License
 
