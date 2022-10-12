@@ -6,9 +6,11 @@ version = "0.0.1"
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+NumericalTypeAliases = "be9b823e-291e-41a1-b8ce-806204e78f92"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [compat]
+NumericalTypeAliases = "0.1, 0.2"
 DocStringExtensions = "0.8, 0.9"
 julia = "1"
 
